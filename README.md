@@ -1,7 +1,7 @@
 ##CARA INSTALL MELALUI GIT
 
 > pkg install git
-> gitclone https://github.com/Fernazer
+> git clone https://github.com/Fernazer
 > cd Fernazer
 > bash install.sh
 > npm start
