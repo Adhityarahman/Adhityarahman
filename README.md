@@ -1,10 +1,18 @@
-- 👋 Hi, I’m @Adhityarahman
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+##CARA INSTALL MELALUI GIT
 
-<!---
-Adhityarahman/Adhityarahman is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+> pkg install git
+> gitclone https://github.com/Fernazer
+> cd Fernazer
+> bash install.sh
+> npm start
+> scan qr
+
+##CARA INSTALL
+
+> termux-setup-storage [Y]
+> cd /sdcard
+> cd -r (namafile) /$HOME
+> cd (namafile)
+> bash install.sh 
+> npm start
+> Now scan the QR
