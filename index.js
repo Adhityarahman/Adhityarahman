@@ -4,12 +4,12 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('BASE\nBY FERNAZER', {
+CFonts.say('BASE\nBY CASTLEBOT', {
   font: 'block',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`SUBREK NASI BOTZ`, {
+CFonts.say(`NIH NO ENC`, {
   font: 'block',
   align: 'center',
   gradient: ['red', 'magenta']
