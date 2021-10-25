@@ -44,18 +44,18 @@ const { ind } = require('./bahasa')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' //jangan ganti eror jngn nyesel
             + 'VERSION:3.0\n' //biarin aja eror jngn nyesel
-            + 'FN:HERMAN CHANEL\n' //ganti aja 
-            + 'ORG: HERMAN CHANEL;\n' //ganti aja
-            + 'TEL;type=CELL;type=VOICE;waid=6283146208804:+6283146208804\n'  //ganti nomor lu
+            + 'FN:PENABOT\n' //ganti aja 
+            + 'ORG:PUNYA OWNER;\n' //ganti aja
+            + 'TEL;type=CELL;type=VOICE;waid=62895342978510:+62895342978510\n'  //ganti nomor lu
             + 'END:VCARD' //jangan ganti eror jangan nyesel
 prefix = '#' //terserah mau ganti apa gak
 blocked = [] //biarin aja eror jngn nyesel
-replitx = '*HERMAN CHANEL*' //jangan di ganti ntar eror 
-ari = '*YT HERMAN CHANEL*'//biarin aja ntar eror
-limitawal = 10000 //terserah mau ganti apa gak 
+replitx = '*PENABOT*' //jangan di ganti ntar eror 
+ari = '*PENASTORE*'//biarin aja ntar eror
+limitawal = 10 //terserah mau ganti apa gak 
 memberlimit = 11111 //terserah mau ganti apa gak 
-namabot = 'HERMAN BOTZ'//ganti aja
-cr = '*「 HERMAN BOTZ 」*' //ganti nama bot
+namabot = 'PENABOTZ'//ganti aja
+cr = '*「 PENABOTZ 」*' //ganti nama bot
 status = "Global Bot Whatsapp" 
 lolkey = '682aeab645ed61cf137cf971' //apikey nya beli sendiri
 Xteam = 'Beli_Sendiri' // apikey
@@ -64,7 +64,7 @@ ZeksApi = 'isi_apikey' // isi apikey
 onlydev = '682aeab645ed61cf137cf971' // isi apikey
 /******** OWNER NUMBER**********/
 //kalian edit aja 
-const ownerNumber = ["6283146208804@s.whatsapp.net"]   //Biarin aja ntr eror
+const ownerNumber = ["62895342978510@s.whatsapp.net"]   //Biarin aja ntr eror
 //###########
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
 if(time2 < "23:59:00"){
@@ -292,10 +292,10 @@ function kyun(seconds){
 }
 /********** FUNCTION ***************/
 
-console.log(color('WELCOME DI WA CONNECTION HERMAN BOTZ, SILAHKAN SCAN KODE DI BAWAH','green'))
+console.log(color('WELCOME DI WA CONNECTION PENABOT, SILAHKAN SCAN KODE DI BAWAH','green'))
 console.log(color('JIKA KODE QR TIDAK MUNCUL SILAHLAN HAPUS FERNAZER.JSON YA KETIK MC','blue'))
 console.log(color('JANGAN PERJUALKAN SC INI KARNA SC INI GRATIS BUAT SEMUA ORNG YAA','yellow'))
-console.log(color('BASE FAREL BOTZ MENGINTAI DARI JAUH KAMI TAU APA YG ANDA LAKUKAN PD BOT','red'))
+console.log(color('BASE CASTLEBOT MENGINTAI DARI JAUH KAMI TAU APA YG ANDA LAKUKAN PD BOT','red'))
 const client = new WAConnection()
 //WWEB 
 client.version = [2, 2119, 6]
@@ -349,7 +349,7 @@ client.on('group-participants-update', async (anu) => {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
 					teks = `ASEK ADA YANG KELUAR BISSMILLAH BACAYASIN\n
- @${num.split('@')[0]}\n❰ *SELAMAT JALAN ANAK HARAM* ❱`
+ @${num.split('@')[0]}\n❰ *SELAMAT JALAN BANG* ❱`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -1981,10 +1981,8 @@ break
 │• Level : ${getLevelingLevel(sender)}
 │• Prefix : ${prefix}
 │
-│• YouTube : Herman Chanel
-│• Instagram : cal_me_herman
-│• Tik Tok : cal_me_herman
-│• Nomor Owner : wa.me/6283146208804
+│• YouTube : TUTORIAL MUDAH
+│• Nomor Owner : 62895342978510
 ╰────
 
 ╭──❲ MAIN ❳
@@ -2017,7 +2015,7 @@ break
 ╰────
 
 ╭─「 Join Group 」
-│• https://chat.whatsapp.com/L9HTjy9FBJIBm3SfQS1pE5
+│• MINTA OWNER AJA BANG
 ╰────
 
 ╭──❲ DATABASE ❳
@@ -2477,7 +2475,7 @@ break
  │ • Revence Owner Only
  ├┬───────❋ཻུ۪۪⸙
  │ •THANKS TO
- │ •FAREL BOTZ
+ │ •PENASTORE
  │ •DYY4YOU 
  │ •Faix
  │ •Inuyy
